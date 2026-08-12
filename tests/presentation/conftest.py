@@ -22,8 +22,8 @@ _test_settings = Settings(
     database_url="postgresql+asyncpg://fake:fake@localhost/fake",
     jwt_secret=JWT_SECRET,
     jwt_algorithm=JWT_ALGORITHM,
-    kafka_bootstrap_servers="localhost:9092",
-    kafka_topic_ads="ads",
+    kafka_brokers="localhost:9092",
+    kafka_topic_marketplace_ads="ads",
 )
 
 
